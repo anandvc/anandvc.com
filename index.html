@@ -13,7 +13,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -31,6 +31,7 @@
 <style>
   *{font-family:'Inter',sans-serif}
   .serif-italic{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400}
+  .wordmark-serif{font-family:'Playfair Display',Georgia,serif;font-weight:800}
   html{scroll-behavior:smooth}
   /* graceful video fallback gradient */
   .video-fallback{background:linear-gradient(135deg,#1e3a5f 0%,#4a90c4 55%,#7cb8e0 100%)}
@@ -123,6 +124,24 @@
 <!-- ============ CONTENT BELOW HERO ============ -->
 <main class="max-w-5xl mx-auto px-5 sm:px-8">
 
+  <!-- As featured in (press wordmark bar) -->
+  <section class="py-10 border-b border-gray-100">
+    <p class="text-center text-xs uppercase tracking-[0.2em] text-gray-400 font-semibold mb-6">As featured in</p>
+    <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-gray-400">
+      <span class="text-2xl font-extrabold tracking-tight">CNBC</span>
+      <span class="text-xl wordmark-serif">BusinessWeek</span>
+      <span class="text-xl wordmark-serif">Bloomberg</span>
+      <span class="text-lg font-bold tracking-tight">U.S.<span class="font-medium">News</span></span>
+      <span class="text-lg wordmark-serif">Los Angeles Times</span>
+      <span class="text-lg wordmark-serif">Chicago Tribune</span>
+      <span class="text-base wordmark-serif">Orlando Sentinel</span>
+      <span class="text-xl wordmark-serif">The Hindu</span>
+      <span class="text-lg font-extrabold tracking-tight">INDIA TODAY</span>
+      <span class="text-xl font-bold">rediff<span class="text-orange-400">.com</span></span>
+    </div>
+    <p class="text-center text-xs text-gray-400 mt-5">…plus Business Standard, Milwaukee Journal Sentinel, BizTimes, On Wisconsin, WisBusiness, LegalZoom &amp; more</p>
+  </section>
+
   <!-- About -->
   <section id="about" class="py-16 border-b border-gray-100">
     <div class="flex items-start gap-6 flex-wrap">
@@ -189,6 +208,59 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- Awards & Honors -->
+  <section class="py-16 border-b border-gray-100">
+    <div class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-6">Awards &amp; Honors</div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div class="rounded-2xl border border-gray-100 bg-gray-50 p-5">
+        <div class="text-2xl">🏅</div>
+        <div class="font-semibold mt-2">Forward Under 40</div>
+        <div class="text-sm text-gray-500">UW-Madison's top young-alumni honor</div>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-gray-50 p-5">
+        <div class="text-2xl">⭐</div>
+        <div class="font-semibold mt-2">Best Entrepreneurs Under 25</div>
+        <div class="text-sm text-gray-500">BusinessWeek</div>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-gray-50 p-5">
+        <div class="text-2xl">🏆</div>
+        <div class="font-semibold mt-2">Burrill Competition Winner</div>
+        <div class="text-sm text-gray-500">National business-plan competition</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Endorsed by -->
+  <section class="py-16 border-b border-gray-100">
+    <div class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-6">Endorsed By</div>
+    <div class="flex flex-wrap gap-2.5">
+      <span class="text-sm font-medium bg-white border border-gray-200 rounded-full px-4 py-2">Daniel Pink <span class="text-gray-400">· bestselling author</span></span>
+      <span class="text-sm font-medium bg-white border border-gray-200 rounded-full px-4 py-2">Ken Tanner <span class="text-gray-400">· fmr. Taco Bell exec</span></span>
+      <span class="text-sm font-medium bg-white border border-gray-200 rounded-full px-4 py-2">Prof. Bruce Barringer <span class="text-gray-400">· textbook author</span></span>
+      <span class="text-sm font-medium bg-white border border-gray-200 rounded-full px-4 py-2">United Nations <span class="text-gray-400">· testimonial</span></span>
+    </div>
+  </section>
+
+  <!-- Patents + GrowthChamp -->
+  <section class="py-16 border-b border-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-8">
+    <div>
+      <div class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-4">Patents</div>
+      <p class="text-4xl font-extrabold tracking-tight">8 <span class="text-lg font-semibold text-gray-500">granted U.S. patents</span></p>
+      <p class="text-sm text-gray-500 mt-2">Field-programmable radio &amp; tracking systems — cited in research at <strong>HP, AT&amp;T, Motorola &amp; Fuji Film</strong>.</p>
+      <p class="text-xs text-gray-400 mt-3 font-mono leading-relaxed">US 6,805,291 · 6,840,444 · 6,869,020 · 6,869,021 · 7,042,336 · 7,176,900 · 7,369,681 · 7,386,518</p>
+      <a href="https://patents.google.com/?inventor=Anand+Chhatpar" target="_blank" rel="noopener" class="inline-flex items-center gap-1 mt-4 text-xs font-medium bg-gray-50 border border-gray-200 rounded-full px-3 py-1.5 text-gray-700 hover:border-blue-400 hover:text-blue-600 transition">See patents ↗</a>
+    </div>
+    <div>
+      <div class="text-xs uppercase tracking-widest text-blue-600 font-bold mb-4">GrowthChamp</div>
+      <p class="text-lg font-semibold">The Ultimate Growth Engineering Course</p>
+      <p class="text-sm text-gray-500 mt-2">Trusted by growth professionals at</p>
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-2 text-gray-600 font-semibold text-sm">
+        <span>Facebook</span><span class="text-gray-300">·</span><span>a16z</span><span class="text-gray-300">·</span><span>Reforge</span><span class="text-gray-300">·</span><span>Discovery Education</span><span class="text-gray-300">·</span><span>Mystery Science</span>
+      </div>
+      <a href="https://www.growthchamp.com/" target="_blank" rel="noopener" class="inline-flex items-center gap-1 mt-4 text-xs font-medium bg-gray-50 border border-gray-200 rounded-full px-3 py-1.5 text-gray-700 hover:border-blue-400 hover:text-blue-600 transition">growthchamp.com ↗</a>
     </div>
   </section>
 
