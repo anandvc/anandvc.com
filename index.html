@@ -32,6 +32,8 @@
   *{font-family:'Inter',sans-serif}
   .serif-italic{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400}
   .wordmark-serif{font-family:'Playfair Display',Georgia,serif;font-weight:800}
+  .logo{height:28px;width:auto;object-fit:contain;filter:grayscale(1);opacity:.55;transition:filter .25s,opacity .25s}
+  .logo:hover{filter:none;opacity:1}
   html{scroll-behavior:smooth}
   /* graceful video fallback gradient */
   .video-fallback{background:linear-gradient(135deg,#1e3a5f 0%,#4a90c4 55%,#7cb8e0 100%)}
@@ -127,17 +129,16 @@
   <!-- As featured in (press wordmark bar) -->
   <section class="py-10 border-b border-gray-100">
     <p class="text-center text-xs uppercase tracking-[0.2em] text-gray-400 font-semibold mb-6">As featured in</p>
-    <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-gray-400">
-      <span class="text-2xl font-extrabold tracking-tight">CNBC</span>
-      <span class="text-xl wordmark-serif">BusinessWeek</span>
-      <span class="text-xl wordmark-serif">Bloomberg</span>
-      <span class="text-lg font-bold tracking-tight">U.S.<span class="font-medium">News</span></span>
-      <span class="text-lg wordmark-serif">Los Angeles Times</span>
-      <span class="text-lg wordmark-serif">Chicago Tribune</span>
-      <span class="text-base wordmark-serif">Orlando Sentinel</span>
-      <span class="text-xl wordmark-serif">The Hindu</span>
-      <span class="text-lg font-extrabold tracking-tight">INDIA TODAY</span>
-      <span class="text-xl font-bold">rediff<span class="text-orange-400">.com</span></span>
+    <div class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/cnbc.svg" alt="CNBC" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/bloomberg-businessweek.svg" alt="Bloomberg Businessweek" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/us-news.svg" alt="U.S. News &amp; World Report" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/la-times.svg" alt="Los Angeles Times" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/chicago-tribune.svg" alt="Chicago Tribune" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/the-hindu.svg" alt="The Hindu" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/india-today.png" alt="India Today" loading="lazy">
+      <img class="logo" src="https://cdn.jsdelivr.net/gh/anandvc/email-assets@main/logos/press/rediff.svg" alt="Rediff" loading="lazy">
+      <span class="wordmark-serif text-lg text-gray-400" style="opacity:.55">Orlando Sentinel</span>
     </div>
     <p class="text-center text-xs text-gray-400 mt-5">…plus Business Standard, Milwaukee Journal Sentinel, BizTimes, On Wisconsin, WisBusiness, LegalZoom &amp; more</p>
   </section>
